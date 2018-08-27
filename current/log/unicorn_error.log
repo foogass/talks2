@@ -1,0 +1,90 @@
+I, [2017-09-14T01:28:23.307398 #7023]  INFO -- : Refreshing Gem list
+/home/webuser/.rvm/gems/ruby-2.4.1/gems/capistrano-2.15.9/lib/capistrano/configuration/loading.rb:18:in `instance': Please require this file from within a Capistrano recipe (LoadError)
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/helpers/base.rb:16:in `rvm_with_capistrano'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/helpers/_cset.rb:3:in `<top (required)>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/base.rb:1:in `require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/base.rb:1:in `<top (required)>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/selector.rb:1:in `require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano/selector.rb:1:in `<top (required)>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano.rb:3:in `require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rvm-capistrano-1.5.6/lib/rvm/capistrano.rb:3:in `<top (required)>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler/runtime.rb:96:in `require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler/runtime.rb:96:in `rescue in block in require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler/runtime.rb:73:in `block in require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler/runtime.rb:66:in `each'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler/runtime.rb:66:in `require'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/lib/bundler.rb:108:in `require'
+	from /var/www/webuser/talks2/config/application.rb:7:in `<top (required)>'
+	from /var/www/webuser/talks2/config/environment.rb:2:in `require_relative'
+	from /var/www/webuser/talks2/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rack-2.0.3/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/rack-2.0.3/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/lib/unicorn.rb:56:in `eval'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/bin/unicorn_rails:139:in `block in rails_builder'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:796:in `build_app!'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:139:in `start'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/bin/unicorn_rails:23:in `load'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/bin/unicorn_rails:23:in `<main>'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/webuser/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-09-14T01:29:55.515423 #7046]  INFO -- : Refreshing Gem list
+I, [2017-09-14T01:29:56.605022 #7046]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-09-14T01:29:56.718483 #7049]  INFO -- : worker=0 ready
+I, [2017-09-14T01:29:56.720946 #7055]  INFO -- : worker=2 ready
+I, [2017-09-14T01:29:56.720946 #7052]  INFO -- : worker=1 ready
+I, [2017-09-14T01:29:56.722457 #7046]  INFO -- : master process ready
+I, [2017-09-14T01:29:56.725144 #7058]  INFO -- : worker=3 ready
+I, [2017-09-15T00:00:37.906716 #12074]  INFO -- : Refreshing Gem list
+I, [2017-09-15T00:00:39.009259 #12074]  INFO -- : unlinking existing socket=/var/www/webuser/talks2/shared/unicorn.sock
+I, [2017-09-15T00:00:39.009452 #12074]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-09-15T00:00:39.104394 #12077]  INFO -- : worker=0 ready
+I, [2017-09-15T00:00:39.107073 #12080]  INFO -- : worker=1 ready
+I, [2017-09-15T00:00:39.107059 #12083]  INFO -- : worker=2 ready
+I, [2017-09-15T00:00:39.108609 #12074]  INFO -- : master process ready
+I, [2017-09-15T00:00:39.109642 #12086]  INFO -- : worker=3 ready
+Bad request content body
+Bad request content body
+I, [2017-10-07T12:31:53.640659 #32616]  INFO -- : Refreshing Gem list
+I, [2017-10-07T12:31:55.124315 #32616]  INFO -- : unlinking existing socket=/var/www/webuser/talks2/shared/unicorn.sock
+I, [2017-10-07T12:31:55.124488 #32616]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-10-07T12:31:55.129464 #32619]  INFO -- : worker=0 ready
+I, [2017-10-07T12:31:55.131192 #32622]  INFO -- : worker=1 ready
+I, [2017-10-07T12:31:55.132762 #32625]  INFO -- : worker=2 ready
+I, [2017-10-07T12:31:55.133257 #32616]  INFO -- : master process ready
+I, [2017-10-07T12:31:55.134288 #32628]  INFO -- : worker=3 ready
+I, [2017-10-07T16:27:02.213598 #1859]  INFO -- : Refreshing Gem list
+I, [2017-10-07T16:27:03.735692 #1859]  INFO -- : unlinking existing socket=/var/www/webuser/talks2/shared/unicorn.sock
+I, [2017-10-07T16:27:03.735865 #1859]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-10-07T16:27:03.739866 #1859]  INFO -- : master process ready
+I, [2017-10-07T16:27:03.740942 #1861]  INFO -- : worker=0 ready
+I, [2017-10-07T16:27:17.100205 #1859]  INFO -- : reaped #<Process::Status: pid 1861 exit 0> worker=0
+I, [2017-10-07T16:27:17.100395 #1859]  INFO -- : master complete
+I, [2017-10-07T16:27:19.916688 #1869]  INFO -- : Refreshing Gem list
+I, [2017-10-07T16:27:21.422170 #1869]  INFO -- : unlinking existing socket=/var/www/webuser/talks2/shared/unicorn.sock
+I, [2017-10-07T16:27:21.422342 #1869]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-10-07T16:27:21.426196 #1869]  INFO -- : master process ready
+I, [2017-10-07T16:27:21.427260 #1872]  INFO -- : worker=0 ready
+81.200.8.95 - - [07/Oct/2017:16:27:32 +0300] "GET / HTTP/1.0" 200 - 0.3693
+81.200.8.95 - - [07/Oct/2017:16:27:34 +0300] "GET /about HTTP/1.0" 200 - 0.0618
+81.200.8.95 - - [07/Oct/2017:16:27:35 +0300] "GET /partners HTTP/1.0" 200 - 0.0615
+81.200.8.95 - - [07/Oct/2017:16:27:36 +0300] "GET /contacts HTTP/1.0" 200 - 0.0610
+81.200.8.95 - - [07/Oct/2017:16:27:41 +0300] "GET /admin HTTP/1.0" 200 - 0.0895
+81.200.8.95 - - [07/Oct/2017:16:28:18 +0300] "GET /admabouts/new HTTP/1.0" 200 - 0.0738
+81.200.8.95 - - [07/Oct/2017:16:28:19 +0300] "GET /admabouts/vk.png HTTP/1.0" 500 118264 0.1439
+81.200.8.95 - - [07/Oct/2017:16:28:19 +0300] "GET /admabouts/facebook.png HTTP/1.0" 500 118270 0.1100
+81.200.8.95 - - [07/Oct/2017:16:28:23 +0300] "POST /admabouts HTTP/1.0" 302 - 0.0902
+81.200.8.95 - - [07/Oct/2017:16:28:23 +0300] "GET /admabouts/4 HTTP/1.0" 500 130460 0.1616
+I, [2017-10-07T16:39:28.662947 #1908]  INFO -- : Refreshing Gem list
+I, [2017-10-07T16:39:30.162730 #1908]  INFO -- : unlinking existing socket=/var/www/webuser/talks2/shared/unicorn.sock
+I, [2017-10-07T16:39:30.162928 #1908]  INFO -- : listening on addr=/var/www/webuser/talks2/shared/unicorn.sock fd=9
+I, [2017-10-07T16:39:30.166744 #1908]  INFO -- : master process ready
+I, [2017-10-07T16:39:30.167771 #1911]  INFO -- : worker=0 ready
+81.200.8.95 - - [07/Oct/2017:16:39:37 +0300] "GET /admabouts/4 HTTP/1.0" 500 130504 0.2707
+81.200.8.95 - - [07/Oct/2017:16:39:45 +0300] "GET / HTTP/1.0" 200 - 0.2643
+81.200.8.95 - - [07/Oct/2017:16:39:45 +0300] "GET /glyphicons-halflings-regular.woff2 HTTP/1.0" 304 - 0.0056

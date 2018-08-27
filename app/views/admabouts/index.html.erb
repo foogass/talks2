@@ -1,0 +1,7 @@
+<h4>О проекте</h4>
+<% @admabouts.each do |admabout| %>
+	<p><strong>Параграф <%= admabout.id + 1 %></strong><br><%= admabout.text %></p>
+	<%= link_to 'Edit', edit_admabout_path(admabout) %>
+	<br>
+	<br>
+<% end %>

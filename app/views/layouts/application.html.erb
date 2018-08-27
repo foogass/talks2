@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Возраст как искусство</title>
+    <%= csrf_meta_tags %>
+	<meta name="yandex-verification" content="5df1be7f6cddc618" />
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  	<div class="container-fluid">
+  		<div class="row header">
+  				<div class="col-lg-2 col-md-2">
+   				</div>
+   				<div class="col-lg-8 col-md-10">
+					<br>
+   					<div class="row">
+   						<div class="col-md-10 col-xs-8">
+   							<p class="email_top">
+   								<span class="glyphicon glyphicon-envelope"></span><b>  ageingforum2017@gmail.com</b>
+   							</p>
+   						</div>
+   						<div class="col-md-1 col-xs-2">
+   							<a href="https://vk.com/public54934808"><img src="vk.png" class="vk center-block"></a>
+   							<br>
+   						</div>
+   						<div class="col-md-1 col-xs-2">
+   							<a href="https://www.facebook.com/AgeingConference/"><img src="facebook.png" class="fb center-block"></a>
+   							<br>
+   						</div>
+   					</div>
+   				</div>
+   				<div class="col-lg-2 col-md-1">
+   					
+   				</div>
+  		</div>
+  		<div class="row">
+			<div class="col-md-1 side">
+  				<br>
+  				<div class="sidebar-nav">
+					<div class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+		          			
+		        		</div>
+		        		<div class="navbar-collapse collapse sidebar-navbar-collapse">
+		          			<ul class="nav navbar-nav">
+		           				<li class="active"><a href="/main"><b>Главная</b></a></li>
+		            			<li><a href="/about"><b>О проекте</b></a></li>
+		            			<li><a href="/partners"><b>Партнеры</b></a></li>
+		            			<li><a href="/contacts"><b>Контакты</b></a></li>
+		            		</ul>
+		        		</div><!--/.nav-collapse -->
+		      		</div>
+				</div>
+  			</div>
+  			<div class="col-lg-10 col-md-10">
+  				<br>
+  				<br>
+  				<%= yield %>
+  			</div>
+			<div style="width: 30px;" class="hidden-sm">
+			</div>
+  		</div>
+		<div class="row contacts">
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+   				<div class="col-lg-8 col-md-10">
+   					<br>
+   					<div class="container-fluid">
+   						<div class="row">
+   							<div class="col-sm-6">
+   								<p>Анастасия Щищенко</p>
+   								<p><span class="glyphicon glyphicon-phone"></span> +7 (918) 005-72-82</p>
+   								<p><span class="glyphicon glyphicon-envelope"></span> AShishchenko@prp.ru</p>
+   								<br>
+   							</div>
+   							<div class="col-sm-6">
+   								<p>Анна Беляева</p>
+   								<p><span class="glyphicon glyphicon-phone"></span> +7 (985) 411-60-67</p>
+   								<p><span class="glyphicon glyphicon-envelope"></span> ABelyaeva@prp.ru</p>
+   								<br>
+   							</div>
+   						</div>
+   						<div class="row">
+   							<div class="col-sm-12">
+	   							<p><span class="glyphicon glyphicon-envelope"></span> ageingforum2017@gmail.com</p>
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+   				<div class="col-lg-2 col-md-1">
+   				</div>
+		</div>
+		<div class="row footer">
+			<div class="col-lg-2 col-md-1">
+			</div>
+			<div class="col-lg-8 col-md-10">
+				<br>
+				<p> © 2017 Все права защищены</p>
+				<br>
+			</div>
+			<div class="col-lg-2 col-md-1">
+			</div>
+  		</div>
+	</div>
+</body>
+</html>

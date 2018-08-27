@@ -1,0 +1,9 @@
+<%= form_for :admabout, url: admabouts_path do |f| %>
+	<p>
+		<%= f.label :text %>
+		<%= f.text_area :text %>
+	</p>
+	<p>
+		<%= f.submit %>
+	<p>
+<% end %>

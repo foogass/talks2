@@ -1,0 +1,2 @@
+class Admabout < ApplicationRecord
+end
